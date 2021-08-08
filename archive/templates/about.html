@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} About {% endblock %}
+{% block content %}
+<body>
+    <style>
+        body {
+          background-image: url('https://i.postimg.cc/pLKrWb6X/pexels-brotin-biswas-518543.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: 100% 100%;
+        }
+        .text {
+        font-family: 'Helvetica';
+        text-align: center;
+        color: ivory;
+      }
+      header {
+        font-size:3vw;
+      }
+      p {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size:2vw;
+      }
+
+        </style>
+<div>
+    <h1 class = "text-center text"> The Problem of Fake News</h1>
+    <p class = "text">That’s Fake! is a browser extension which helps prevent the spread of misinformation.
+        The extension will look at the site to tell you how accurate the information is. 
+        That’s Fake! will be useful to anybody on the internet and especially to those 
+        who frequently read their news on their laptop since 52% of Americans say they see fake news online regularly. 
+        That’s Fake! is easy to use and only needs one click to see if an article is accurate.
+    </p>
+</div>
+</body>
+{% endblock %}
